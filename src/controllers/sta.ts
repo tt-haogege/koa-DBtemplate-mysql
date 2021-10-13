@@ -1,4 +1,4 @@
-import { Controller, Method, RequestMapping } from '../decorator/index'
+import { Controller, Method, RequestMapping } from 'koa-router-decorators-up'
 import * as Koa from 'koa'
 @Controller('/a')
 export default class startApi {

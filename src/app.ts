@@ -4,7 +4,7 @@ import middleware from "./middleware"
 import { resolve } from "path"
 import { createConnection } from 'typeorm';
 import 'reflect-metadata';
-import loadController from './decorator/index'
+import loadController from 'koa-router-decorators-up'
 const app = new Koa()
 const KoaRouter = require('koa-router')
 const router = new KoaRouter()

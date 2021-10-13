@@ -1,4 +1,4 @@
-import { Controller, get, post } from '../decorator/index'
+import { Controller, get, post } from 'koa-router-decorators-up'
 import { Context, Next } from 'koa';
 import { User } from '../mysql/entity/user'
 import { getManager } from 'typeorm';
